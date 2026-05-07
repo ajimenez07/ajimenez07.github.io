@@ -14,8 +14,8 @@
       </div>
       <div id="goto">
         <a href="#about-me">About me</a>
-        <a href="#featured-projects">Features projects</a>
-        <a href="#skills">Technologies and skills</a>
+        <a href="#featured-projects">Projects</a>
+        <a href="#skills">Technical skills</a>
         <a href="#contact">Contact</a>
       </div>
     </header>
@@ -34,7 +34,9 @@
           <img src="assets/modpython_img.png" alt="Code snippet of the Python fork">
           <img src="assets/modpython_test.png" alt="Successful execution of a test">
           <h4>Technologies</h4>
-          <p>Python Interpreter and C</p>
+          <div class="tech-badges">
+            <span class="badge">Python Interpreter</span><span class="badge">C</span>
+          </div>
           <h4>What it does?</h4>
           <p>It adds a new Python type that is
             a tree of strings where each character is a node</p>
@@ -48,7 +50,10 @@
           alt="Execution of a program calling the syscall">
 
           <h4>Technologies</h4>
-          <p>The Linux Kernel and C (GCC)</p>
+          <div class="tech-badges">
+            <span  class="badge">Linux Kernel</span><span class="badge">C</span>
+          </div>
+
           <h4>What it does?</h4>
           <p>It adds a Linux Syscall to see the ram memory available</p>
           <a href="https://github.com/ajimenez07/MyModLinux" target="_blank">
@@ -59,7 +64,10 @@
           <h3>A Calculator</h3>
           <img src="assets/indev_calculator.png" alt="Image of the calculator in development">
           <h4>Technologies</h4>
-          <p>Autoconf (GCC) and GTKmm (C++)</p>
+          <div class="tech-badges">
+            <span class="badge">Autoconf (GCC)</span> <span class="badge">GTKmm</span>
+            <span class="badge">C++</span>
+          </div>
           <h4>What it does?</h4>
           <p>Graphic calculator built with GTK4 and Cairo.
             Implements an AST-based expression evaluator and custom layout system.
@@ -74,19 +82,45 @@
         </div>
       </section>
       <section id="skills">
-        <h2>Technologies</h2>
-        <ul>
-          <li>C++ and C</li>
-          <li>Python and Java</li>
-          <li>GNU Emacs</li>
-          <li>Git and Autoconf</li>
-        </ul>
+        <h2>Technical Skills</h2>
+        <div class="skills-grid-large">
+          <div class="skill-card">
+            <div class="skill-icon">            
+              <img src="assets/advanced.png">
+            </div>
+            <h3>C / C++</h3>
+            <p>Advanced</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/intermediate.png">
+            </div>
+            <h3>Python / Java</h3>
+            <p>Intermediate</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/gui.png">
+            </div>
+            <h3>GTKmm / Cairo</h3>
+            <p>GUI development</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon">
+              <img src="assets/build.png">
+            </div>
+            <h3>Autoconf / Git</h3>
+            <p>Build systems, VCS</p>
+          </div>
+      </section>
+
       </section>
     </div>
     <footer>
       <div id="contact">
       </div>
       <p>© 2026 Álex Jiménez</p>
+      <p style="font-size: small">Material Design Icons by Google</p>
     </footer>
   </body>
   
