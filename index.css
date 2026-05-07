@@ -1,0 +1,74 @@
+html, body {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F0F0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+
+    background-color: white;
+    font-size: 24px;
+    padding: 16px;
+}
+header {
+
+    font-family: monospace;
+    background: black;
+    color: white;
+    margin: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    height: 20vh;
+
+}
+
+header, #container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70vw;
+}
+
+
+#goto {
+
+    margin-left: 50px;
+
+}
+
+#goto a{
+
+    color: white;
+    margin: 10px;
+    background-color: #3B3B3B;
+    font-size: 16px;
+}
+
+.project-card img {
+
+    width: 40%;
+    height: auto;
+}
+
+.project-card {
+    background-color: #F7F7F7;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+
+}
